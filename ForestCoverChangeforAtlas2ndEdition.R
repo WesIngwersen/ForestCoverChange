@@ -2,7 +2,7 @@
 #Compute country level % change in forest cover from 2005-2015 relative to 2005 cover 
 
 #Data url
-#url = 
+#url = http://fenixrepo.fao.org/cdn/data/flude/download/1.FOREST%20AREA%20AND%20CHARACTERISTICS.zip
 #Read in FAO data
 GLO_FAandChars = read.table('1.FOREST AREA AND CHARACTERISTICS.csv',header=TRUE,sep=",",check.names=F,na.strings=c("#REF"),fill=TRUE)
 
